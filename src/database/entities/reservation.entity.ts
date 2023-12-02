@@ -11,15 +11,6 @@ import {
 import { Classroom } from './classroom.entity';
 import { DecimalColumnTransformer } from 'src/helpers/helpers';
 
-// class DecimalColumnTransformer {
-//   to(data: number): number {
-//     return data;
-//   }
-//   from(data: string): number {
-//     return parseFloat(data);
-//   }
-// }
-
 @Entity()
 export class Reservation extends BaseEntity {
   @Column('date')
